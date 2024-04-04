@@ -9,10 +9,12 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_marginTop="40px"
+        android:background="@drawable/background"
         android:layout_height="280px" >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             android:orientation="horizontal">
 
             <ImageView
@@ -39,14 +41,14 @@
                 android:id="@+id/btnPause"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50px"
+                android:layout_marginTop="90px"
                 app:srcCompat="@android:drawable/ic_media_pause" />
 
             <ImageButton
                 android:id="@+id/btnPlay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50px"
+                android:layout_marginTop="90px"
                 app:srcCompat="@android:drawable/ic_media_play" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
